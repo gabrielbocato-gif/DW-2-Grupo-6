@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+ 
 }
 
  .mae{
@@ -78,28 +79,30 @@
  }
 
  .mae4 {
-   border: solid 1px rgb(0, 162, 255);
+  
    height: 250px;
    width: 100%;
    display: flex;
+   gap: 10px;
  }
 
  .mae5 {
-  border: solid 1px rgb(0, 162, 255);
+  
    height: 250px;
    width: 100%;
+   display: flex;
+   gap: 10px;
  }
 
  .mae6 {
-  border: solid 1px rgb(0, 162, 255);
+ 
    height: 250px;
    width: 100%;
+   display: flex;
+   gap: 10px;
  }
   
 
-  .all{
-  
-  }
 
   .compra{
     border-radius: 4px;
@@ -125,7 +128,7 @@
 
    .card {
     
-    width: 15% ;
+    width: 10% ;
     height:100% ;
     display: flex;
     flex-direction: column;
@@ -134,7 +137,7 @@
 
    .card img {
      width:100% ;
-     height: 90%;
+     height: 80%;
      border-radius: 8px;
      border:solid 1px black;
    }
@@ -142,4 +145,8 @@
    .card p {
     font-size: 20px;
     font-weight: bold;
+   }
+
+   .card .fonts {
+    font-family: "Roboto", sans-serif;
    }
