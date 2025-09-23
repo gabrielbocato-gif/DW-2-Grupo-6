@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     /* box-sizing: border-box; */
+    font-family: "Arial", "Helvetica", sans-serif;
 }
 
 body {
@@ -28,34 +29,64 @@ body {
 }
 
 .upbar1 {
-    border: solid red;
-    background-color: #3a3b3d;
+    /* border: solid red; */
+    /* background-color: #3a3b3d;  */
     width: 53%;
     height: 50px;
     justify-content: center;
     flex-direction: row;
     display: flex;
-    padding-left: 17%;
+    padding-left: 22.5%;
+    font-size: 15px;
 }
 
 .upbar2 {
-    
-    border: solid red;
-    background-color: #3a3b3d;
+    display: flex;
+    /* border: solid red; */
+    /* background-color: #3a3b3d; */
+    display: flex;
+    gap: 20px;
     width: 29%;
     height: 50px;
     justify-content: flex-end;
     flex-direction: row;
+    align-items: top;
+    padding: 1%;
+    color: white;
 }
 
-.telgeral {
+.upbar0 {
+    padding-top: 10px;
     display: flex;
-    border: solid rgb(0, 102, 255);
-    background-color: #3a3b3d;
+    border: solid rgb(0, 204, 255); 
+    /* background-color: #3a3b3d; */
     width: 100%;
     height: 60px;
     justify-content: flex-start;
     align-items: center;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
+
+.searchh {
+    padding-left: 10%;
+    border-radius: 10px;
+    border: solid 0px;
+    font-size: 20px;
+    background-color: #181818;
+    height: 35px;
+    width: 200px;
+}
+ .total {
+    border: solid rgb(140, 0, 255) ;
+    height: 100%;
+    width: 100%;
+    justify-content: column ;
+ }
+
+ .space {
+    border: solid rgb(255, 0, 0) ;
+    height: ;
+    width: 100%;
+    justify-content: column ;
+ }
