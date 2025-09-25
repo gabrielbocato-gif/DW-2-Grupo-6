@@ -58,10 +58,10 @@ body {
 .upbar0 {
     padding-top: 10px;
     display: flex;
-    border: solid rgb(0, 204, 255); 
+    /* border: solid rgb(0, 204, 255);  */
     /* background-color: #3a3b3d; */
     width: 100%;
-    height: 60px;
+    height: 40px;
     justify-content: flex-start;
     align-items: center;
     flex-direction: row;
@@ -69,13 +69,14 @@ body {
 }
 
 .searchh {
-    padding-left: 10%;
+    padding-left: 5%;
     border-radius: 10px;
     border: solid 0px;
     font-size: 20px;
     background-color: #181818;
     height: 35px;
     width: 200px;
+    /* color: white; */
 }
  .total {
     border: solid rgb(140, 0, 255) ;
@@ -84,9 +85,20 @@ body {
     justify-content: column ;
  }
 
- .space {
+ .foto {
+    display: flex;
     border: solid rgb(255, 0, 0) ;
-    height: ;
+    /* height: 10% ; */
     width: 100%;
-    justify-content: column ;
+    justify-content: row ;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    color: white;
+
+ }
+
+ .fotoperfil {
+    border-radius: 50%;
+    height: 60px;
  }
