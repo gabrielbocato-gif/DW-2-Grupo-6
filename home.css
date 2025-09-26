@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+
+body {
+    display: flex;
+    background-color: #242527;
+}
+/* barra lateral */
+.lateral {
+    position: fixed;
+    display: flex;
+    /* border: solid red; */
+    background-color: #3a3b3d;
+    width: 55px;
+    height: 100vh;
+    justify-content: flex-start;
+    /* align-items: center; */
+    flex-direction: column;
+    padding-top: 16px;
+}
+
+.latfil {
+    display: flex;
+    margin-block-end: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.upbar1 {
+    /* border: solid red; */
+    /* background-color: #3a3b3d;  */
+    width: 53%;
+    height: 50px;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    padding-left: 22.5%;
+    font-size: 15px;
+}
+
+.upbar2 {
+    display: flex;
+    /* border: solid red; */
+    /* background-color: #3a3b3d; */
+    display: flex;
+    gap: 20px;
+    width: 29%;
+    height: 50px;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: top;
+    padding: 1%;
+    color: white;
+}
+
+.upbar0 {
+    padding-top: 10px;
+    display: flex;
+    /* border: solid rgb(0, 204, 255);  */
+    background-color: #242527;
+    width: 100%;
+    height: 40px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+.searchh {
+    padding-left: 5%;
+    border-radius: 10px;
+    border: solid 0px;
+    font-size: 20px;
+    background-color: #181818;
+    height: 35px;
+    width: 200px;
+    /* color: white; */
+}
+
+.total {
+    padding-left: 55px;
+    border: solid transparent;
+    height: 100%;
+    width: 96.5%;
+    justify-content: column;
+}
+
+.foto {
+    display: flex;
+    /* border: solid rgb(255, 0, 0) ; */
+    /* height: 10% ; */
+    justify-content: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.fotoperfil {
+    padding-left: 12px;
+    border-radius: 50%;
+    height: 40px;
+}
+
+.friends {
+    border: solid transparent;
+    padding-top: 10px;
+    padding-left: 12px;
+    font-size: 17px;
+    color: white;
+}
+
+.frifotos {
+    border: solid transparent;
+    display: flex;
+    /* gap: ; */
+}
+
+.add {
+    border: solid rgb(255, 255, 255);
+    background-color: rgb(160, 160, 160);
+    height: 103.5px;
+    width: 103.5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconeadd {
+    height: 70px;
+}
+
+.player {
+    background-color: rgb(60, 61, 61);
+    border-radius: 50%;
+    height: 110px;
+}
+
+.frinamfoto {
+    border: solid transparent;
+    /* display: flex; */
+    justify-content: column;
+    justify-items: center;
+}
+
+.nomefriends {
+    padding-top: 4px;
+    font-size: bold 8px;
+    color: rgb(255, 255, 255);
+}
+
+.nomefriends0 {
+    padding-top: 10px;
+    font-size: bold 8px;
+    color: rgb(255, 255, 255);
+
+}
+
+.continue {
+    border: solid transparent;
+    padding-top: 5px;
+    padding-left: 12px;
+    font-size: 17px;
+    color: white;
+}
+
+.recommended {
+    border: solid transparent;
+    padding-top: 5px;
+    padding-left: 12px;
+    font-size: 17px;
+    color: white;
+}
+
+.jogogeral {
+    border: solid transparent;
+    display: flex;
+    justify-content: row;
+    width: 97%;
+    padding-left: 12px;
+    gap:10px;
+}
+
+.fotojogo {
+    border: solid transparent;
+    border-radius: 20px;
+    height: 23vh;
+}
+
+.nomejogo {
+    font-size: bold 17px;
+    color: white;
+
+}
+
+.agrlike {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    color: rgb(194, 194, 194);
+}
