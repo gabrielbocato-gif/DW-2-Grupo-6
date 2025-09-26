@@ -24,7 +24,9 @@
 }
 
 .esquerda {
-
+  display: flex;
+justify-content: row;
+align-items: flex-start;
   height: 100px;
   width: 47%;
 }
@@ -172,3 +174,8 @@
   font-weight: bold;
 }
 
+.logo {
+  height: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
