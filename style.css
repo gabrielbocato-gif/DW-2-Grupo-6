@@ -9,7 +9,7 @@ body {
     display: flex;
     background-color: #242527;
 }
-
+/* barra lateral */
 .lateral {
     position: fixed;
     display: flex;
@@ -127,6 +127,13 @@ body {
     height: 103.5px;
     width: 103.5px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconeadd {
+    height: 70px;
 }
 
 .player {
