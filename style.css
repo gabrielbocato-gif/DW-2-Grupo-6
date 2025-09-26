@@ -11,6 +11,7 @@ body {
 }
 
 .lateral {
+    position: fixed;
     display: flex;
     /* border: solid red; */
     background-color: #3a3b3d;
@@ -21,6 +22,7 @@ body {
     flex-direction: column;
     padding-top: 16px;
 }
+
 .latfil {
     display: flex;
     margin-block-end: 20px;
@@ -59,7 +61,7 @@ body {
     padding-top: 10px;
     display: flex;
     /* border: solid rgb(0, 204, 255);  */
-    /* background-color: #3a3b3d; */
+    background-color: #242527;
     width: 100%;
     height: 40px;
     justify-content: flex-start;
@@ -78,27 +80,121 @@ body {
     width: 200px;
     /* color: white; */
 }
- .total {
-    border: solid rgb(140, 0, 255) ;
-    height: 100%;
-    width: 100%;
-    justify-content: column ;
- }
 
- .foto {
+.total {
+    padding-left: 55px;
+    border: solid transparent;
+    height: 100%;
+    width: 96.5%;
+    justify-content: column;
+}
+
+.foto {
     display: flex;
-    border: solid rgb(255, 0, 0) ;
+    /* border: solid rgb(255, 0, 0) ; */
     /* height: 10% ; */
-    width: 100%;
-    justify-content: row ;
+    justify-content: row;
     align-items: center;
     gap: 10px;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
 
- }
+}
 
- .fotoperfil {
+.fotoperfil {
+    padding-left: 12px;
     border-radius: 50%;
-    height: 60px;
- }
+    height: 40px;
+}
+
+.friends {
+    border: solid transparent;
+    padding-top: 10px;
+    padding-left: 12px;
+    font-size: 17px;
+    color: white;
+}
+
+.frifotos {
+    border: solid transparent;
+    display: flex;
+    /* gap: ; */
+}
+
+.add {
+    border: solid rgb(255, 255, 255);
+    background-color: rgb(160, 160, 160);
+    height: 103.5px;
+    width: 103.5px;
+    border-radius: 50%;
+}
+
+.player {
+    background-color: rgb(60, 61, 61);
+    border-radius: 50%;
+    height: 110px;
+}
+
+.frinamfoto {
+    border: solid transparent;
+    /* display: flex; */
+    justify-content: column;
+    justify-items: center;
+}
+
+.nomefriends {
+    padding-top: 4px;
+    font-size: bold 8px;
+    color: rgb(255, 255, 255);
+}
+
+.nomefriends0 {
+    padding-top: 10px;
+    font-size: bold 8px;
+    color: rgb(255, 255, 255);
+
+}
+
+.continue {
+    border: solid transparent;
+    padding-top: 5px;
+    padding-left: 12px;
+    font-size: 17px;
+    color: white;
+}
+
+.recommended {
+    border: solid transparent;
+    padding-top: 5px;
+    padding-left: 12px;
+    font-size: 17px;
+    color: white;
+}
+
+.jogogeral {
+    border: solid transparent;
+    display: flex;
+    justify-content: row;
+    width: 97%;
+    padding-left: 12px;
+    gap:10px;
+}
+
+.fotojogo {
+    border: solid transparent;
+    border-radius: 20px;
+    height: 23vh;
+}
+
+.nomejogo {
+    font-size: bold 17px;
+    color: white;
+
+}
+
+.agrlike {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    color: rgb(194, 194, 194);
+}
